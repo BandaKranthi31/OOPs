@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+*.log
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyCharm & IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# Cython debug symbols
+cython_debug/
+
+# VS Code (optional)
+.vscode/
+
+# System files (Linux/Debian-specific)
+*~
+*.swp
+*.swo
+.cache/
+Thumbs.db
+.DS_Store
+.Trash-*/
+.nfs*
+
+# File managers (like Nautilus or Thunar) thumbnails
+.thumbnails/
+
+# Mount or temporary files (if working on external or system dirs)
+lost+found/

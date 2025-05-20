@@ -30,11 +30,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        BankAccount warner = new BankAccount("David Andrew Warner" , 0);
+//        BankAccount warner = new BankAccount("David Andrew Warner" , 0);
+//
+//        warner.depositMoney(89);
+//        warner.withdrawMoney(1);\
+//        warner.displayInformation();
 
-        warner.depositMoney(89);
-        warner.withdrawMoney(1);
-        warner.displayInformation();
+        Person smith = new Person("Steve Smith", 36);
+        Person hazlewood = new Person("Josh Hazlewood" , 35);
+        System.out.println(smith.getName());
+        System.out.println(hazlewood.getAge());
 
     }
 }
